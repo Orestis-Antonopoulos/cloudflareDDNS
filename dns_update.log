@@ -1,0 +1,10 @@
+Sat Dec 16 18:00:06 EET 2023: IPv4 update successful. Previous IP: 46.246.178.16, New IP: 46.246.178.16
+Sat Dec 16 18:00:11 EET 2023: IPv6 update successful. Previous IP: 2a02:2149:8bf8:1900:5a11:22ff:fed7:4c13, New IP: 2a02:2149:8bf8:1900:5a11:22ff:fed7:4c1a
+
+Sun Dec 17 17:20:01 EET 2023: All is good! No need to update DNS records.
+Sun Jan  7 01:30:07 EET 2024: IPv4 update successful. Previous IP: 46.246.178.16, New IP: 188.4.59.224
+Sun Jan  7 01:30:13 EET 2024: IPv6 update successful. Previous IP: 2a02:2149:8bf8:1900:5a11:22ff:fed7:4c1a, New IP: 2a02:2149:8ade:ef00:5a11:22ff:fed7:4c1a
+Tue Jan  9 15:50:05 EET 2024: IPv4 update successful. Previous IP: 188.4.59.224, New IP: 130.43.63.125
+Tue Jan  9 15:50:14 EET 2024: IPv6 update successful. Previous IP: 2a02:2149:8ade:ef00:5a11:22ff:fed7:4c1a, New IP: 2a02:2149:8be1:3000:5a11:22ff:fed7:4c1a
+Mon Mar 11 14:20:02 EET 2024: IPv4 update successful. Previous IP: 130.43.63.125, New IP: 46.246.227.98
+Mon Mar 11 14:20:08 EET 2024: IPv6 update successful. Previous IP: 2a02:2149:8be1:3000:5a11:22ff:fed7:4c1a, New IP: 2a02:2149:8b7b:9a00:5a11:22ff:fed7:4c1aΤρι 19 Μαρ 2024 11:24:00 μμ EET: IPv4 update failed. Previous IP: 46.246.227.98, Attempted IP: 46.246.227.98 Response: {"result":null,"success":false,"errors":[{"code":7003,"message":"Could not route to /client/v4/zones/dns_records/, perhaps your object identifier is invalid?"}],"messages":[]}
