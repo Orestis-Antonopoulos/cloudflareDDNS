@@ -1,7 +1,9 @@
+
 DNS Update Script
 This project contains scripts to automatically update your DNS records on Cloudflare when your public IP changes.
 
 -----===== Tutorial =====-----
+!!IMPORTANT!! Place the files in: /home/scripts/cloudflareDDNS/ or change the absolute paths within the scripts
 This tutorial assumes you already have an active website on cloudflare, and their dns set up as well.
 This tutorial will give you bash commands that you may have to edit.
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Log file
-log_file="./dns_update.log"
+log_file="/home/scripts/cloudflareDDNS/dns_update.log"
 
 # Function to write to log
 log_update() {
@@ -9,8 +9,8 @@ log_update() {
 }
 
 # File paths
-ipv4_file="./ipv4.txt"
-ipv6_file="./ipv6.txt"
+ipv4_file="/home/scripts/cloudflareDDNS/ipv4.txt"
+ipv6_file="/home/scripts/cloudflareDDNS/ipv6.txt"
 
 # Read the IPs stored in the text files
 stored_ipv4=$(cat "$ipv4_file" 2>/dev/null)
@@ -27,7 +27,7 @@ echo -e "Stored IPv6: $stored_ipv6, Current IPv6: $current_ipv6"
 if [ "$current_ipv4" != "$stored_ipv4" ] || [ "$current_ipv6" != "$stored_ipv6" ]; then
     echo "IP has changed. Running UpdateDNS.sh to update DNS records."
     # Run the UpdateDNS.sh script
-    ./UpdateDNS.sh
+    /home/scripts/cloudflareDDNS/UpdateDNS.sh
 else
     echo "No change in IP. No need to update DNS records."
    # log_update "All is good! No need to update DNS records."
